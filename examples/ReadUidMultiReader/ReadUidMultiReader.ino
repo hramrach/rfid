@@ -31,9 +31,9 @@
 #include <SPI.h>
 #include <MFRC522.h>
 
-#define RST_PIN        10           // Configurable, see typical pin layout above
-#define SS_1_PIN        5          // Configurable, see typical pin layout above
-#define SS_2_PIN        3          // Configurable, see typical pin layout above
+#define RST_PIN        50           // Configurable, see typical pin layout above
+#define SS_1_PIN        43          // Configurable, see typical pin layout above
+#define SS_2_PIN        49          // Configurable, see typical pin layout above
 
 #define NR_OF_READERS   2
 

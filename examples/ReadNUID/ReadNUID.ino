@@ -31,8 +31,8 @@
 #include <SPI.h>
 #include <MFRC522.h>
 
-#define SS_PIN 10
-#define RST_PIN 9
+#define SS_PIN 43
+#define RST_PIN 50
  
 MFRC522 rfid(SS_PIN, RST_PIN); // Instance of the class
 
